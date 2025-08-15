@@ -1,0 +1,1 @@
+<template>inventory</template>
