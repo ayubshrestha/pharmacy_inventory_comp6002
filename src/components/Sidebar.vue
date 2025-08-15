@@ -15,6 +15,18 @@ const route = useRoute()
             Inventory
         </RouterLink>
 
+        <RouterLink to="/purchase-order" class="link" :class="{ active: route.name === 'purchase-order' }">
+            Purchase Order
+        </RouterLink>
+
+        <RouterLink to="/sales-order" class="link" :class="{ active: route.name === 'sales-order' }">
+            Sales Order
+        </RouterLink>
+
+        <RouterLink to="/vendors" class="link" :class="{ active: route.name === 'vendors' }">
+            Vendors
+        </RouterLink>
+
         <RouterLink to="/about" class="link" :class="{ active: route.name === 'about' }">
             About
         </RouterLink>
